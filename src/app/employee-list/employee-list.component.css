@@ -1,0 +1,19 @@
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table thead {
+  background-color: #9e66b4;
+  color: white;
+}
+
+.employee-table th, .employee-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.employee-table tbody tr:hover {
+  background-color: #f9f9f9;
+}

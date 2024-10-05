@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #9e66b4;
+  padding: 15px;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  font-family:Calibri;
+  text-decoration:none;
+  font-size: 22px;
+}
+
+.navbar-profile img {
+  height: 40px;
+}
