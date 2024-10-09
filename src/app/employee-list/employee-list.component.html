@@ -1,16 +1,20 @@
-<table class="employee-table">
-  <thead>
-  <tr>
-    <th>Nom et prénom</th>
-    <th>Poste occupé</th>
-    <th>Nom de l'équipe</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let employe of employes">
-    <td>{{ employe.nom }}</td>
-    <td>{{ employe.poste }}</td>
-    <td>{{ employe.equipe }}</td>
-  </tr>
-  </tbody>
-</table>
+<main>
+   <div class="custum-table">
+     <div class="table-header">
+         <div> </div>
+         <div>Nom et prenom </div>
+         <div>Poste occupé </div>
+         <div> Nom de l'équipe </div>
+     </div>
+     <div class="custum-body">
+       <div *ngFor="let employe of employes" class="line-grid">
+         <div><i class="fa-solid fa-circle-user fa-2x"></i></div>
+         <div>{{ employe.nom }} </div>
+         <div>{{ employe.poste }}</div>
+         <div>{{ employe.equipe }}</div>
+         <div class="button-end"><i class="fa-solid fa-file-pen fa-2x" style="color: #d2601a;"></i></div>
+         <div><i class="fa-solid fa-trash-can fa-2x" style="color: #1e3d59"></i></div>
+       </div>
+     </div>
+   </div>
+</main>
